@@ -1,0 +1,63 @@
+
+.pic-cell {
+  border: 1px solid black !important;
+}
+
+.pic-table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 0px;
+  text-align: center;
+}
+
+.pic-row {
+  margin: 0px;
+  justify-content: right;
+  border: 1px solid black;
+}
+
+span.spec {
+  font-weight: bold;
+  padding: 2px;
+}
+
+span.col-1 {
+  color: black;
+}
+
+.pic-cell {
+  margin: 0px;
+  padding: 2px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.pic-cell.highlight {
+  border: 2px solid blue;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.nonclickable {
+  cursor: default;
+}
+
+.pic-cell:focus {
+  border: blue solid 3px;
+}
+
+.pic-cell.black {
+  background-color: black;
+}
+
+.pic-cell.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
